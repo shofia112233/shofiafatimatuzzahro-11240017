@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Shofia Fatima Tuzzahro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #dcdcdc, #f1f1f1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      position: relative;
+      width: 900px;
+      height: 500px;
+      background: #e0e0e0;
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .left {
+      flex: 1;
+      padding: 60px 50px;
+      background: linear-gradient(135deg, #ececec, #cfcfcf);
+    }
+
+    .left h3 {
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      margin-bottom: 30px;
+    }
+
+    .left h3::before {
+      content: '👤';
+      margin-right: 10px;
+    }
+
+    .left h1 {
+      font-size: 28px;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .left h2 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 10px 0;
+      color: #111;
+    }
+
+    .left h2 span {
+      display: block;
+    }
+
+    .left .title-box {
+      border: 1.5px solid #333;
+      display: inline-block;
+      padding: 5px 20px;
+      border-radius: 5px;
+      margin-top: 15px;
+      font-weight: 500;
+      color: #333;
+      background-color: #f6f6f6;
+    }
+
+    .left .ig {
+      position: absolute;
+      bottom: 30px;
+      left: 50px;
+      display: flex;
+      align-items: center;
+      background: #000;
+      border-radius: 20px;
+      padding: 6px 14px;
+    }
+
+    .left .ig img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+
+    .left .ig span {
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .right {
+      flex: 1;
+      position: relative;
+      background: #b6b2c8;
+      clip-path: path('M100,0 C80,200 120,300 0,500 L900,500 L900,0 Z');
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .right img {
+      width: 360px;
+      height: auto;
+      border-radius: 20px;
+      position: relative;
+      z-index: 2;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h3>About me</h3>
+      <h1>Hello, my name is</h1>
+      <h2>
+        <span>SHOFIA FATIMA</span>
+        <span>TUZZAHRO</span>
+      </h2>
+      <div class="title-box">MAHASISWA IT</div>
+      <div class="ig">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        <span>@shofiaftz</span>
+      </div>
+    </div>
+    <div class="right">
+      <img src="foto.jpg" alt="Foto Shofia Fatima Tuzzahro">
+    </div>
+  </div>
+</body>
+</html>
